@@ -1,0 +1,61 @@
+/* App.css */
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+div {
+  max-width: 400px;
+  margin: 48px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(255, 78, 80, 0.15);
+  padding: 28px 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ff4e50;
+  margin-bottom: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 14px 0;
+  padding: 18px 20px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.1s, box-shadow 0.1s;
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+}
+
+/* Colorful cards using nth-child */
+li:nth-child(6n+1) { background: linear-gradient(90deg, #ff6a00 0%, #ee0979 100%); }
+li:nth-child(6n+2) { background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%); }
+li:nth-child(6n+3) { background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%); }
+li:nth-child(6n+4) { background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%); }
+li:nth-child(6n+5) { background: linear-gradient(90deg, #f953c6 0%, #b91d73 100%); }
+li:nth-child(6n)   { background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%); }
+
+li:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ff4e50;
+  font-weight: 500;
+}
